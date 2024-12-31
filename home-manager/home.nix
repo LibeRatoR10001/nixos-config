@@ -3,7 +3,7 @@
 
   imports = [
     ./packages.nix
-    ./product/nixvim.nix
+    ./product
   ];
 
   home = {
@@ -11,8 +11,6 @@
     homeDirectory = "/home/Atom";
   };
   home.packages = (import ./packages.nix { pkgs = pkgs; }).home.packages;
-
-  programs.kitty.enable = true;
 
   # environment
   home.sessionVariables.NIXOS_OZONE_WL = "1";
