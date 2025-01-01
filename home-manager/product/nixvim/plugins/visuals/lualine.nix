@@ -3,7 +3,6 @@
         enable = true;
         settings.options = {
             globalstatus = true;
-            theme = "dracula";
             icons_enabled = true;
             component_separators = {
                 left = "|";
