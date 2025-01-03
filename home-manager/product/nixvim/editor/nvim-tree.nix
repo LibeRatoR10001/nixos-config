@@ -5,7 +5,7 @@
         };
         keymaps = [
             {
-                mode = [ "n" "i" "v" ];
+                mode = [ "n" ];
                 key = "<leader>e";
                 action = ":NvimTreeToggle<CR>";
                 options = {
