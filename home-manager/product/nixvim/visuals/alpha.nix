@@ -58,7 +58,7 @@ in
                   { "Function", 39, -1 }
                 },
                 {
-                  { "String", 1, 36 },
+                  { "String", 0, 36 },
                   { "Function", 37, -1 }
                 },
                 {
@@ -80,8 +80,8 @@ in
                 },
                 {
                   { "String", 0, 10 },
-                  { "Function", 11, 35 },
-                  { "String", 36, -1 }
+                  { "Function", 11, 34 },
+                  { "String", 35, -1 }
                 },
                 {
                   { "Function", 0, 40 },

@@ -23,8 +23,8 @@
 
   networking.hostName = "nixos"; # Define your hostname.
   # Pick only one of the below networking options.
-  networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-  networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
+  #networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
+  #networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
   networking.hosts = {
     "20.205.243.166" = [ "github.com" ];
   };
@@ -73,8 +73,6 @@
     packages = with pkgs; [
     ];
   };
-
-  # programs.firefox.enable = true;
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget

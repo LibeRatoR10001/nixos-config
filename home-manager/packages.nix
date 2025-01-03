@@ -3,6 +3,7 @@
   home.packages = with pkgs; [
     # product
     alacritty
+    kitty
 
     # utils
     fastfetch

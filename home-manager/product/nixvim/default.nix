@@ -3,7 +3,12 @@
   imports = [
     ./core.nix
     ./keymap.nix
-    ./plugins
+    ./coding
+    ./editor
+    ./infrastructure
+    #./misc
+    ./optimise
+    ./visuals
   ];
   programs.nixvim.enable = true;
 }
